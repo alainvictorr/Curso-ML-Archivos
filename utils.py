@@ -3,8 +3,6 @@ import numpy as np
 from matplotlib import pyplot
 
 sys.path.append('..')
-from submission import SubmissionBase
-
 
 def mapFeature(X1, X2, degree=6):
     """
