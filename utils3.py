@@ -12,7 +12,7 @@ import numpy as np
 from matplotlib import pyplot
 
 sys.path.append('..')
-from submission import SubmissionBase
+#from submission import SubmissionBase
 
 
 def displayData(X, example_width=None, figsize=(10, 10)):
