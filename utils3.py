@@ -54,7 +54,7 @@ def sigmoid(z):
     return 1.0 / (1.0 + np.exp(-z))
 
 
-class Grader(SubmissionBase):
+class Grader():
     # Random Test Cases
     X = np.stack([np.ones(20),
                   np.exp(1) * np.sin(np.arange(1, 21)),
